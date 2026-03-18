@@ -27,35 +27,43 @@ tencent_news_spider/
 └─ README.md
 ```
 ## Installation
+
+# 1. Clone the repository:
+
 ```
-1. Clone the repository:
-
-
 git clone https://github.com/yclovejy/tencent_news_spider.git
 cd tencent_news_spider
+```
 
-2. Create a virtual environment:
+# 2. Create a virtual environment:
 
+```
 python3 -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 .venv\Scripts\activate      # Windows
+```
 
-3. Install dependencies:
+# 3. Install dependencies:
+
+```
 pip install -r requirements.txt
+```
 
-Usage
-
+## Usage
 Run the spider:
+```
 python main.py
-
+```
 Scraped comments will be saved in comments.csv.
 You can use analysis.py to generate word clouds or sentiment analysis.
 
-Notes
-•	Playwright may require browser installation:
+
+## Notes
+- Playwright may require browser installation:
+```
 playwright install
 ```
 
-License
+## License
 
 MIT License © 2026 yclovejy
