@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+.idea/
+
+# 数据文件
+data/comments.csv
+
+# 分析结果
+results/*.png
+results/*.txt
